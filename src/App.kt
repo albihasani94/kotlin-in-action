@@ -1,5 +1,4 @@
-
-data class Person (val name: String, val age: Int? = null)
+data class Person(val name: String, val age: Int? = null)
 
 fun main() {
     val persons = listOf(Person("Alice"), Person("BoB", 29))
