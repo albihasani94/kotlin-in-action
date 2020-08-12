@@ -4,5 +4,5 @@ fun main() {
     val persons = listOf(Person("Alice"), Person("BoB", 29))
 
     val oldest = persons.maxBy { it.age ?: 0 }
-    println("The oldest person is $oldest")
+    println("The oldest person is $oldest") // The oldest person is Person(name=BoB, age=29)
 }
