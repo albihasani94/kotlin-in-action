@@ -1,5 +1,7 @@
 # Kotlin in Action
 
+*Witness the horror of me writing everything I know about kotlin into a single source file*.
+
 ## Make the target directory
 
 ```bash
