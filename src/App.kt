@@ -13,12 +13,10 @@ fun main() {
     println("Max of $a and $b is ${max(a, b)}")
 }
 
-// What a taste of lambda
+// What a taste of lambda - block body
 fun findOldest(persons: List<Person>): Person? {
     return persons.maxBy { it.age ?: 0 }
 }
 
-// Functions are fun
-fun max(a: Int, b: Int): Int {
-    return if (a > b) a else b
-}
+// Functions are fun - expression body
+fun max(a: Int, b: Int): Int = if (a > b) a else b
