@@ -19,4 +19,4 @@ fun findOldest(persons: List<Person>): Person? {
 }
 
 // Functions are fun - expression body
-fun max(a: Int, b: Int): Int = if (a > b) a else b
+fun max(a: Int, b: Int) = if (a > b) a else b
