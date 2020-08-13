@@ -10,7 +10,14 @@ fun main() {
     // Look at this nice string templating
     val a = 5
     val b = 6
+    // b = 8; reassignment not allowed for val
     println("Max of $a and $b is ${max(a, b)}")
+
+    val question = "The solution to my problems"
+    var answer = 42
+    answer = 10 // this answer  does not make sense; var allows reassignment tho
+    // answer = drugs; not allowerd due to type mismatch
+    println("$question is $answer")
 }
 
 // What a taste of lambda - block body
